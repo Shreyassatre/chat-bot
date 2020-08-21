@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="chatbot.css">
+    <script type="text/javascript" src="chatbot.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="container main-container">
+        <div class="panel panel-default">
+            <div class="panel-heading pt-3">
+                <img src="CC_LOGO.png">
+                <h1 class="panel-title text-center" style="color: lightgray;">Cloud Counselage</h1>
+            </div>
+            <div class="panel-body mb-3">
+                <div id='chatborder' class="p-4">
+                    <p id="chatlog7" class="chatlog">&nbsp;</p>
+                    <p id="chatlog6" class="chatlog">&nbsp;</p>
+                    <p id="chatlog5" class="chatlog">&nbsp;</p>
+                    <p id="chatlog4" class="chatlog">&nbsp;</p>
+                    <p id="chatlog3" class="chatlog">&nbsp;</p>
+                    <p id="chatlog2" class="chatlog"><b>Assistant:</b> Hey,how may I help you?
+                    <br> Please reply with the numbers to the corresponing questions. <br>
+                    1.General IP Queries <br>
+                    2.Learning Path 1  <br>
+                    3.Learning Path 2 <br>
+                    4.Learning Path 3 <br>
+                    5.Live projects</p>
+                    <p id="chatlog1" class="chatlog">&nbsp;</p>
+                    <input type="text" name="chat" id="chatbox" placeholder="Ask doubts rgarding IP here!" onfocus="placeHolder()">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
